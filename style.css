@@ -1,0 +1,192 @@
+/*Nav section*/
+.nav-link{
+	text-transform:uppercase;
+ }
+ .navbar{
+ 	background: #000;
+    opacity: 0.7;
+ }
+.navbar-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+ /*Slider css*/
+
+.slide-bg-1{
+    background: url('assets/img/slide-bg-1.jpg');
+}
+
+
+
+.single-slide-item {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.single-slide-item:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #000;
+    opacity: .6;
+    z-index: -1;
+}
+
+.single-slide-item .d-table-cell {
+    vertical-align: middle;
+}
+
+.single-slide-item h2 {
+    font-size: 48px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.box-btn {
+    display: inline-block;
+    background: #fc721e;
+    padding: 8px 25px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #fc721e;
+    transition: .3s;
+}
+
+.slide-btn {
+    margin-top: 40px;
+}
+
+.slide-btn a {
+    margin-right: 25px;
+}
+
+.box-btn:hover{
+    background: transparent;
+    color: #fff;
+}
+
+/*Home section*/
+#homeicon{
+
+}
+
+.fa{
+    font-size: 50px;
+}
+
+/*Home started*/
+#Getstarted{ 
+    background: url('assets/img/project-bg-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+}
+
+.dark-overlay{
+    background: rgb(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Home video section css*/
+#home-video{ 
+    background: url('assets/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 250px;
+    position: relative;
+}
+
+.dark-overlay{
+    background: rgb(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.yticon{
+    font-size: 35px;
+    color: #ff0000;
+}
+
+/*Photo gallery*/
+#gallery{
+    img{
+        min-height: 250px;
+    }
+}
+
+/*Copyright*/
+#copyright{
+    background: #000;
+}
+
+/*About us section*/
+/*about page header css*/
+#page-header{
+    background-image: url(assets/img/ph5.jpg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+/*What we do section css*/
+.icone{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/*services us section*/
+/*Services page header*/
+#services-page-header{
+    background-image: url(assets/img/ph4.jpg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+.gicon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/*FAQ section css*/
+#accourdion{
+    background-color: dimgrey;
+}
+
+ @media(max-width: 767px){
+		.nav-item{
+			padding-left: 0!important;
+		}
+        #Getstarted{
+            min-height: 300px;
+        }
+}
+
+ @media(max-width: 480px){
+        #Getstarted{
+            min-height: 350px;
+        }
+ }
